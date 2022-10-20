@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    background: #fff;
+    justify-content: space-around;
+}
+.test1{
+    background: rgb(21, 0, 128);
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+  }
+  .test2{
+    background: rgb(0, 0, 0);
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+  }
+  .test3{
+    background: rgb(128, 17, 0);
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+  }
+  .test4{
+    background: rgb(0, 128, 15);
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+  }
+
