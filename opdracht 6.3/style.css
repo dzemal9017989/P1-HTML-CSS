@@ -1,0 +1,20 @@
+.nav {
+    display: flex;
+    flex-direction: row;
+    color: blue;
+    width: 100%;
+}
+.midden{
+    text-decoration: none;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+.logo{
+    width: 25%;
+    text-align: center;
+}
+.login{
+    width: 25%;
+    text-align: center;
+}
