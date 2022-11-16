@@ -1,0 +1,162 @@
+.header{
+  width: 100%;
+  height: 100vh;
+  background-image: url(Hacker-Thumb-img.webp);
+  background-position: center;
+  background-size: cover;
+}
+nav{
+  position: fixed;
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  min-height: 100px;
+  background: blue;
+  top: 0;
+  justify-content: center;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: black;
+  height: 64px;
+  font-weight: bold;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-decoration: none;
+  transition: background 0.4s;
+}
+.logo{
+  width: 100px;
+  margin-left: 20px;
+}
+.nav ul{
+  list-style: none;
+  display: flex;
+}
+nav li{
+  width: 100%;
+  text-align: center;
+  position: relative
+}
+
+body{
+  margin: 0;
+  position: relative;
+  min-height: 100vh;
+  font-size: 13px; 
+  font-family: montserrat, sans-serif;
+}
+.hacker{
+  width: 100vw;
+}
+.textbox{
+  position: absolute;
+  top: 120px;
+}
+
+body{
+  position: fixed;
+  height: 100vh;
+}
+footer{
+  position: absolute;
+  bottom: 0;
+  padding-top: 65px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  height: 8vh;
+  background: blue;
+  margin-bottom: 0vh;
+}
+h2{
+  color: aliceblue;
+  text-align: center;
+  padding: 0%;
+  margin: 0%;
+}
+h1{
+  color:aliceblue;
+  text-align: center; 
+}
+p{
+  color: aliceblue;
+  text-align: center;
+  display: flex;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  position: relative;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#main-nav a{
+  color: black;
+  display: block;
+  height: 64px;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  transition: background 0.4s;
+}
+#main-nav a:hover{
+  background-color: aqua;
+}
+#main-nav ul{
+  list-style: none;
+  display: flex;
+}
+#main-nav li{
+  width: 100%;
+  text-align: center;
+  position: relative;
+}
+#main-nav li:hover  .submenu > li{
+  display: block;
+  top: 0px;
+}
+.submenu li{
+  display: none;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  }
+  #main-nav a{
+    color: white;
+    background: red;
+    display: block;
+    height: 64px;
+    font-family:Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    transition: background 0.4s;
+  }
+  #main-nav a:hover{
+    background-color: aqua;
+  }
+  #main-nav ul{
+    list-style: none;
+    display: flex;
+  }
+  #main-nav li{
+    width: 100%;
+    text-align: center;
+    position: relative;
+  }
+  #main-nav li:hover .submenu > li{
+    display: block;
+    top: 0px;
+  }
+  .submenu li{
+    display: none;
+  }
